@@ -115,3 +115,14 @@ th {
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
+
+
+#trash-button {
+  background-color: #dc3545; 
+  color: rgb(0, 0, 0);
+}
+
+#copy-button {
+ background-color: aquamarine;
+ color: rgb(0, 0, 0);
+}

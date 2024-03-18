@@ -33,6 +33,8 @@
         <h2>Navigation</h2>
         <button>Repositories</button>
         <button>New</button>
+        <button id="trash-button">Delete</button>
+        <button id="copy-button">Copy</button>
         <button>Up</button>
         <button>Down</button>
 
@@ -49,6 +51,73 @@
             <span class="config-value">Value</span>
         </div>
     </section>
+    
+     <table>
+        <thead>
+            <tr>
+                <th>Page Type</th>
+                <th>Page Id</th>
+                <th>Title</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Initial Page</td>
+                <td>INIT</td>
+                <td>$OTR:/SCMT</td>
+            </tr>
+            <tr>
+                <td>Main Page</td>
+                <td>MAIN</td>
+                <td>$OTR:/SCMT</td>
+            </tr>
+            <tr>
+                <td>Main Page</td>
+                <td>MAIN_FAST_E</td>
+                <td>$OTR:/SCMT</td>
+            </tr>
+            <tr>
+                <td>Main Page</td>
+                <td>MAIN_FAST_E</td>
+                <td>$OTR:/SCMT</td>
+            </tr>
+            <tr>
+                <td>Dialog Box </td>
+                <td>ADRESS_DE</td>
+                <td>$OTR:/SCMT</td>
+            </tr>
+            <tr>
+                <td>Dialog Box</td>
+                <td>ACT_LIST</td>
+                <td>$OTR:/SCMT</td>
+            </tr>
+            <tr>
+                <td>Initial Page</td>
+                <td>LOTE_HLP</td>
+                <td>$OTR:/SCMT</td>
+            </tr>
+            <tr>
+                <td>Initial Page</td>
+                <td>SEC_FILING_R</td>
+                <td>$OTR:/SCMT</td>
+            </tr>
+            <tr>
+                <td>Initial Page</td>
+                <td>SEC_FILING_O</td>
+                <td>$OTR:/SCMT</td>
+            </tr>
+            <tr>
+                <td>Initial Page</td>
+                <td>REPACT_NOTE</td>
+                <td>$OTR:/SCMT</td>
+            </tr>
+            <tr>
+                <td>Initial Page</td>
+                <td>REPACT_AFT </td>
+                <td>$OTR:/SCMT</td>
+            </tr>
+        </tbody>
+    </table>
 
     <section class="content-section">
         <div class="content-box">
@@ -140,7 +209,11 @@
             <input type="email" placeholder="Instance ID">
             <input type="password" placeholder="Column">
             <input type="name" placeholder="Row Number">
-            <input type="password" placeholder="Sequence Index:">
+            <select id="rowNumberOptions">
+                <option value="option1">Visible</option>
+                <option value="option2">Hidden and Excluded from Event Loop</option>
+                <option value="option2">Hidden but Processed in Event Loop (Technical)</option>
+            </select>
             <input type="email" placeholder="Default:">
             <input type="password" placeholder="Hidden element">
             <br>
@@ -148,14 +221,14 @@
             <input type="name" placeholder="Title:">
             <input type="password" placeholder="Image">
             <input type="email" placeholder="Paddin">
+           <select id="paddinOptions">
+              <option value="option 1">Automatic (Default) </option>
+           </select>
             <input type="password" placeholder="Style">
             <input type="name" placeholder="Explanation Text::">
             <input type="password" placeholder="Explanation Document">
             <input type="password" placeholder="Default Edit Page">
             <input type="password" placeholder="Default Details Page:">
-
-
-
         </form>
     </div>
 
