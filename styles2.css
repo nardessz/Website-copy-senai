@@ -1,0 +1,170 @@
+:root {
+  --primary-color: #f3e51e;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.alternate-bar {
+  background-color: var(--primary-color);
+  height: 10px;
+  margin: 10px 0;
+}
+
+.section-title {
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.section-content {
+  padding: 10px 20px;
+}
+
+.buttons-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+}
+
+.buttons-section button {
+  margin-right: 5px;
+}
+
+.navigation-section {
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+}
+
+.config-data {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.config-id {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.config-value {
+  font-style: italic;
+}
+
+.content-box {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.content-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.content-row {display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.content-label {
+  width: 150px;
+  font-weight: bold;
+}
+
+.content-value-text {
+  margin-left: 10px;
+}
+
+.overview {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+}
+
+.text-id {
+  width: 30%;
+}
+
+.text-id h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.text-id h4 {
+  margin-bottom: 5px;
+}
+
+.button-id {
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button-id button {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.beforeOVW {
+  width: 100%;
+}
+
+.beforeOVW table {
+  width: 100%;
+}
+
+.attributesUIBB {
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  margin-top: 20px;
+}
+
+.attributesUIBB h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.alternate-bar2 {
+  background-color: blue;
+  height: 5px;
+  margin: 10px 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#trash-button {
+  background-color: #dc3545;
+  color: rgb(0, 0, 0);
+}
+
+#copy-button {
+  background-color: aquamarine;
+  color: rgb(0, 0, 0);
+}
