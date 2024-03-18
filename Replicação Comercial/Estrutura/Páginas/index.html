@@ -1,46 +1,163 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../Visual/Estilo/styles.css">
-    <title>Tela 1</title>
+    <title>SAP Page</title>
 </head>
 
 <body>
 
-    <div>
+    <h1 class="h1p">Component Customizing/SCMTMS/WDCC_FWD_ORDER, Main Page "$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER"</h1>
 
-        <header>
-            <H1>Component Customizing/SCMTMS/WDCC_FWD_ORDER, Main Page "$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER"</H1>
-        </header>
+    <div class="alternate-bar"></div>
 
-        <hr id="alternate-line">
-
-    </div>
-
-    <section id="buttons-top">
-
-        <div id="save-button">
-            <button>Save</button>
-        </div>
-
-        <div id="cancel-button"></div>
-            <button>Cancel</button>
-        <div id="id"> </div>
-        
-        <div id="edit-button">
-            <button>Edit</button>
-        </div>
-
-        <div id="savedraft-button">
-            <button>Save Draft</button>
-        </div>
-
+    <section class="buttons-section">
+        <h2>Additional Functions</h2>
+        <button>Save</button>
+        <button>Cancel</button>
+        <button>Undo</button>
+        <button>Redo</button>
+        <button>Check</button>
+        <button>Edit</button>
+        <button>Save Draft</button>
+        <button>Load Draft</button>
+        <button>New</button>
+        <button>Up</button>
+        <button>Down</button>
     </section>
 
+    <section class="navigation-section">
+        <h2>Navigation</h2>
+        <button>Repositories</button>
+        <button>New</button>
+        <button>Up</button>
+        <button>Down</button>
 
+        <div class="config-data">
+            <span class="config-id">Page Type</span>
+            <span class="config-value">Page Id</span>
+        </div>
+        <div class="config-data">
+            <span class="config-id">Title</span>
+            <span class="config-value">Initial Page</span>
+        </div>
+        <div class="config-data">
+            <span class="config-id">INIT</span>
+            <span class="config-value">Value</span>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="content-box">
+            <div class="content-title">Content Title</div>
+            <div class="content-row">
+                <div class="content-label">Label 1:</div>
+                <div class="content-value-text">Value 1</div>
+            </div>
+            <div class="content-row">
+                <div class="content-label">Label 2:</div>
+                <div class="content-value-text">Value 2</div>
+            </div>
+            <div class="content-row">
+                <div class="content-label">Label 3:</div>
+                <div class="content-value-text">Value 3</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="overview">
+        <div class="text-id">
+            <h1>Overview Page Schema</h1>
+            <h4>Toolbar Schema</h4>
+            <h4>Wire Schema</h4>
+        </div>
+
+        <div class="button-id">
+            <button>Page Master Area</button>
+            <button>Section</button>
+            <button>UIBB</button>
+            <button>"trash icon"</button>
+            <button>Up</button>
+            <button>Down</button>
+        </div>
+
+        <div class="beforeOVW">
+
+            <h4>Element</h4>
+            <h4>Component</h4>
+            <h4>Config ID</h4>
+            <h4>Window Name</h4>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Coluna A</th>
+                        <th>Coluna B</th>
+                        <th>Coluna C</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th></th>
+                        <td>Linha 1</td>
+                        <td>Dado A1</td>
+                        <td>Dado B1</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td>Linha 2</td>
+                        <td>Dado A2</td>
+                        <td>Dado B2</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td>Linha 3</td>
+                        <td>Dado A3</td>
+                        <td>Dado B3</td>
+                        <td></td>
+
+                    </tr>
+                    
+                </tbody>
+            </table>
+
+        </div>
+    </section>
+
+    <div class="attributesUIBB">
+        <h2>Attributes of UIBB: $OTR:/SCMTMS/UI_C,M/ADM_INFO</h2>
+        <div class="alternate-bar2"></div>
+
+        <form class="form">
+            <input type="name" placeholder="Window Name:">
+            <input type="password" placeholder="Config ID">
+            <input type="email" placeholder="Instance ID">
+            <input type="password" placeholder="Column">
+            <input type="name" placeholder="Row Number">
+            <input type="password" placeholder="Sequence Index:">
+            <input type="email" placeholder="Default:">
+            <input type="password" placeholder="Hidden element">
+            <br>
+            <br>
+            <input type="name" placeholder="Title:">
+            <input type="password" placeholder="Image">
+            <input type="email" placeholder="Paddin">
+            <input type="password" placeholder="Style">
+            <input type="name" placeholder="Explanation Text::">
+            <input type="password" placeholder="Explanation Document">
+            <input type="password" placeholder="Default Edit Page">
+            <input type="password" placeholder="Default Details Page:">
+
+
+
+        </form>
+    </div>
 
 </body>
 
